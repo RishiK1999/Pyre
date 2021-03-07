@@ -1,0 +1,33 @@
+{
+    "profiles": [
+        {
+            "id": 0,
+            "Name":"Nathan",
+            "specialization":
+            [
+                "Entrepreneurship",
+                "Robotics",
+                "Medicine"
+            ]
+        },
+        {
+            "id": 1,
+            "Name":"John",
+            "specialization":
+            [
+                "Robotics",
+                "Entrepreneurship",
+                "Medicine"
+            ]
+        },
+        {
+            "id": 2,
+            "Name":"Matt",
+            "specialization":[
+                "Medicine",
+                "Robotics",
+                "Entrepreneurship"
+            ]
+        }
+    ]
+}

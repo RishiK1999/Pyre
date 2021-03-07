@@ -1,0 +1,33 @@
+{
+    "profiles": [
+        {
+            "id": 0,
+            "Name":"Craig",
+            "interest":
+            [
+                "Medicine",
+                "Robotics",
+                "Entrepreneurship"
+            ]
+        },
+        {
+            "id": 1,
+            "Name":"Paul",
+            "interest":
+            [
+                "Entrepreneurship",
+                "Robotics",
+                "Medicine"
+            ]
+        },
+        {
+            "id": 2,
+            "Name":"Ashley",
+            "interest":[
+                "Medicine",
+                "Robotics",
+                "Entrepreneurship"
+            ]
+        }
+    ]
+}
