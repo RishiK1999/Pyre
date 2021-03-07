@@ -5,6 +5,7 @@ Installations:
 1. Node.js
 
 Steps:
-1. cmd in directory.
-2. npm install
-3. http-server
+1. cd to directory
+2. cmd in directory.
+3. npm install
+4. http-server
