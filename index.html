@@ -1,0 +1,95 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<html>
+    <head>
+        <!--Firebase and firestore libraries-->
+        <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-firestore.js"></script>
+
+        <!--Custom styles-->
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+
+    <body style="background-image: url('images/freddy-castro-u3ajSXhZM_U-unsplash.jpg');">
+
+        <div class="jumbotron jumbotron-fluid" style="background-color: black;">
+            <h1 class="display-4" style="text-align: center; color: white; padding: 20px;">Pyre</h1>
+            <p class="lead" style="color: white; text-align: center;" >Find mentors who are open to chat across a broad array of innnovative and diverse fields</p>
+            <hr class="my-4" style="background-color: white;">
+            <p style="color: white; text-align: center;">Sign up and indicate you personal interests to get matched immediately</p>
+          </div>
+
+
+
+
+        <div class="container-sm container-fluid" style="max-width: 800px; align-items: center; border-radius: 25px; background-color: #838383; opacity: 75%; padding-bottom: 50px;">
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false" style="align-items:center;">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="container-sm container-fluid" style="max-width: 500px;">
+                    <h1 class="display-6" style="text-align: center; color: white; padding: 20px;">Log In</h1>
+                  
+                    <div class="mb-3">
+                      <label class="form-label" style="width:200px; color:white;">Email address</label>
+                      <input type="email" id="loginEmail">
+                    </div>
+                    <div class="mb-3">
+                      <label class="form-label" style="width:200px; color:white;">Password</label>
+                      <input type="password" id="loginPassword">
+                    </div>
+                    <button class="btn btn-primary" id="logInButton">Log in</button>
+                  
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container-sm container-fluid" style="max-width: 500px;">
+                    <h1 class="display-6" style="text-align: center; color: white; padding: 20px;">Sign Up</h1>
+                 
+                    <div class="mb-3">
+                      <label class="form-label" style="width:200px; color:white;">Email address</label>
+                      <input type="email" id="signupEmail">
+                    </div>
+                    <div class="mb-3">
+                      <label class="form-label" style="width:200px; color:white;">Password</label>
+                      <input type="password" id="signupPassword">
+                    </div>
+                   <button class="btn btn-primary" id="signUpButton">Sign Up</button>
+                  
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+
+
+
+        <!--
+        <h1 id="header">Header text</h1>
+        <input type="textfield" id="status"/>
+        <button id="savebtn">Save</button>
+        <button id="loadbtn">Load</button>-->
+
+
+
+
+
+
+        <script src="./app.js"></script>
+
+    </body>
+</html>

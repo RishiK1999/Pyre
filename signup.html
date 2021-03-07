@@ -1,0 +1,109 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+<html>
+    <head>
+        <!--Firebase and firestore libraries-->
+        <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-firestore.js"></script>
+
+        <!--Custom styles-->
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+
+
+
+        
+    <body style="background-color: white;">
+
+        <div class="container container-fluid" style="background-color: black;">
+            <h1>Welcome</h1>
+            <p>Please fill out the survey below to get started. These questions will be used to create pairings with the mentors that are the best fit for you.</p>
+        </div>
+        <div class="container container-fluid" style="margin: 0 auto; align-items: center; background-color: #ff2a26;">
+            <form>
+                <div class="form-group">
+                  <label >First Name</label>
+                  <input class="form-control" type="text">
+                </div>
+                <div class="form-group">
+                    <label >Last Name</label>
+                    <input class="form-control" type="text">
+                  </div>
+                  <div class="form-group">
+                    <label >Pronouns</label>
+                    <input class="form-control" type="text">
+                  </div>
+                  <div class="form-group">
+                    <label >Link to LinkedIn account</label>
+                    <input class="form-control" type="text">
+                  </div>
+                <div class="form-group">
+                  <label for="exampleFormControlSelect1">Institution attended/currently attending</label>
+                  <select class="form-control" id="exampleFormControlSelect1">
+                    <option>Highschool</option>
+                    <option>Algoma University</option>
+                    <option>Brock University</option>
+                    <option>Carleton Universit</option>
+                    <option>Lakehead University</option>
+                    <option>Laurentian University</option>
+                    <option>McMaster University</option>
+                    <option>Nipissing University</option>
+                    <option>Ontario College of Art and Design University</option>
+                    <option>Queen's University</option>
+                    <option>Royal Military College of Canada</option>
+                    <option>Ryerson University</option>
+                    <option>Trent University</option>
+                    <option>University of Guelph</option>
+                    <option>Ontario Tech University</option>
+                    <option>University of Ottawa</option>
+                    <option>University of Toronto</option>
+                    <option>University of Waterloo</option>
+                    <option>University of Western Ontario</option>
+                    <option>University of Windsor</option>
+                    <option>Wilfrid Laurier University</option>
+                    <option>York University</option>
+                  </select>
+                </div>
+                <div>
+                    <label >Select all applicable interests:</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                    <label class="form-check-label" for="inlineCheckbox1">Entrepreneurship</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                    <label class="form-check-label" for="inlineCheckbox2">Healthcare</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                    <label class="form-check-label" for="inlineCheckbox2">Innovation</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                    <label class="form-check-label" for="inlineCheckbox2">Education</label>
+                </div>
+              </form>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+
+</html>

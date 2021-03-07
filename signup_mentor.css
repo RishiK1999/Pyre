@@ -1,0 +1,42 @@
+
+body, html{
+    height:100%;
+    background-color: lightblue;
+}
+  
+h1{
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+}
+
+.bg{
+    background-image: url('images/trees.jpg');
+    background-position: center;
+    height: 25%;
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input[type=text] {
+    background-color: #3CBC8D;
+    color: white;
+  }
+  
+
+.top-left {
+    position: absolute;
+    color: white;
+    top: 8px;
+    left: 16px;
+    font-size: 120px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+p{
+    font-family: verdana;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
