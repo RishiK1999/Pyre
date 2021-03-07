@@ -1,5 +1,5 @@
 # Pyre
-A networking website that matches mentors with mentees
+A networking website that matches mentors with mentees.
 
 Installations:
 1. Node.js
